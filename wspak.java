@@ -16,8 +16,7 @@ public class JavaApplication1 {
         x=klawiatura.nextLine();
       }
       catch (InputMismatchException ex) {OK=false;klawiatura.nextLine();}
-    }
-    while (!OK);
+    } while (!OK);
     int len = x.length();
     for (int i=len; i>0; i--) {
       System.out.print(x.charAt(i-1));

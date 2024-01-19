@@ -17,8 +17,7 @@ public class JavaApplication1 {
             }
             catch (InputMismatchException ex)
             {OK=false;klawiatura.nextLine();}
-        }
-        while (!OK);
+        } while (!OK);
         int len = x.length();
         for (int i=0; i<len; i++) {
             if (x.charAt(i) != (char) 32) {
